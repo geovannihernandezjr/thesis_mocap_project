@@ -27,4 +27,4 @@ these models, this research will evaluate the deep learning technique and motion
 data to perform motion analysis to forecast univariate motion data and to also predict the
 fatigue based on the displacement movement from each marker.
 
-This github repo contains the code(s) that were created using time series univariate analysis of one single data marker as well as using multiple markers to predict fatigue from lifting motion conducted. 
+This github repo contains the code(s) that were created using time series univariate analysis of one single data marker as well as using multiple markers to predict fatigue from lifting motion conducted. The algorithms used were Long Short Term Memory (LSTM) and Gated Recurrent Unit (GRU) with various parameters like number of neurons, epochs using Stochastic Gradient Descend optimizer. Based on research SGD performed well on motions therefore, this was the deciding factor to pick it. I compared both LSTM and GRU with LSTM performing far better than GRU. 
